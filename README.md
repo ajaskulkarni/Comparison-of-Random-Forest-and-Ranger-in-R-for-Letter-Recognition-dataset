@@ -1,1 +1,7 @@
 # Comparison-of-Random-Forest-and-Ranger-in-R-for-Letter-Recognition-dataset
+
+Random Forest and Ranger has been successfully compared and analyzed for Letter Recognition dataset. To analyze the Random Forest and Ranger 5000 and 1000 decision trees were built. Based on the performed analysis it became clear that Ranger is the optimized and fast implementation of Random Forest.
+
+Random Forest is giving better speedup and efficiency up to 10 cores and after that, both are decreasing. In the case of Random Forest, slightly more speedup and efficiency are observed for 5000 decision trees as compared to 1000 decision trees. For Ranger speedup and efficiency are better till 8 cores and after that, both are decreasing. Also, it is observed that speedup and efficiency are better for 5000 decision trees then 1000 decision trees. So, we may say that Random Forest is ideal to use till 10 cores and Ranger is ideal to use till 8 cores.
+
+In terms of cost, the cost of both the algorithms is increasing as the number of cores are increasing. If we compare Random Forest and Ranger in terms of cost, then Ranger is cost efficient as compared to Random Forest. Also, profiling of both the functions made it clear that Ranger has fewer functions. The time taken for execution is also very less for Ranger. Thus, it explains that Ranger is a better algorithm and cost efficient implementation as compared to Random Forest.
